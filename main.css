@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Montserrat";
+  background-image: linear-gradient(45deg, #e0995e, #c85c5c);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-color: rgb(238, 238, 238);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+}
+
+.form {
+  flex: 2;
+  margin-right: 10px;
+  padding: 50px 30px;
+}
+
+img {
+  width: 350px;
+}
+
+.img-box {
+  height: auto;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4e5d74;
+  border-radius: 0 10px 10px 0;
+}
+
+h1 {
+  font-size: 45px;
+  font-weight: 900;
+  color: #c85c5c;
+  letter-spacing: 0.03em;
+}
+
+h3 {
+  margin-top: 0;
+  line-height: 1.5em;
+  color: #000000;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.3em;
+  font-weight: 500;
+}
+
+label {
+  line-height: 1.3em;
+  font-weight: 500;
+  margin-bottom: 0px;
+}
+
+#number-position-fibonacci {
+  margin-top: 20px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+.button {
+  background-color: #c85c5c;
+  color: rgb(238, 238, 238);
+}
+
+#screen {
+  padding: 20px;
+  width: 300px;
+  margin: 10px auto;
+  border-bottom: 1px solid #c85c5c;
+  text-align: center;
+}
+
+.text-center {
+  text-align: center;
+  margin-left: 10px;
+}

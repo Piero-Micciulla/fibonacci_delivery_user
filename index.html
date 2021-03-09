@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Fibonacci generator</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="form">
+        <h1>Fibonacci Delivery Service</h1>
+        <h3>
+          Have you ever had to check which number is at which position in the
+          Fibonacci sequence?
+        </h3>
+        <p>It is painful I know .... but no stress! We've got you covered!</p>
+        <form method="get" id="fibonacci-form">
+          <div class="form-container">
+            <label for="number-position-fibonacci"
+              >Write the number position and get the value of it!
+            </label>
+            <br />
+            <input
+              class="field"
+              type="number"
+              id="number-position-fibonacci"
+              name="number-position-fibonacci"
+              min="0"
+              oninput="validity.valid||(value='')"
+              placeholder="Enter a positive num"
+            />
+            <input
+              class="button"
+              id="fibonacci-button"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </form>
+        <div id="screen"></div>
+      </div>
+      <div class="img-box">
+        <img src="./images/rocket.png" alt="rocket" />
+      </div>
+    </div>
+    <script type="text/javascript" src="application.js"></script>
+  </body>
+</html>
